@@ -1,0 +1,21 @@
+header, main, footer {
+    padding-left: 300px;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .sidenav li a.active{
+    background: linear-gradient(45deg,#06ebe0,#037768);
+    color: aliceblue;
+  }
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
